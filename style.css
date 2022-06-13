@@ -1,0 +1,515 @@
+. {
+    margin: 0
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.logo {
+  height: 33px;
+  width: 268px;
+  padding-top: 1%;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+}
+.menu-item {
+  margin-right: 20px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(171, 171, 171);
+}
+.drop-menu {
+  display: none;
+  list-style: none;
+  position: absolute;
+  margin-left: -40px;
+  color: rgb(171, 171, 171);
+}
+.menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+}
+.drop-menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+.title {
+  text-align: center;
+  padding-top: 100px;
+}
+.title img {
+  height: 39px;
+  width: 40px;
+}
+.title h1 {
+  font: 300 34px "Work Sans", Arial, sans-serif;
+  line-height: 44.2px;
+  color: rgb(0, 179, 155);
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 150px;
+  /* padding:1 1 1 1; top right bottom left ;
+  padding:1 2; 1-->top,bottom  2-->right,left; */
+}
+.info p {
+  width: 35%;
+  font: 400 16px Roboto, Arial, sans-serif;
+  line-height: 28px;
+  color: rgb(116, 116, 116);
+}
+/* a corrigé
+h1 {
+  color: #00c3a5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ } */
+#title1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* .paragraphs {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #747678;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 500px;
+  padding-left: 500px;
+} */
+
+.blocks3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#block1 h3,
+#block2 h3,
+#block3 h3 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33.8px;
+  color: rgb(255, 255, 255);
+}
+
+#block1 p,
+#block2 p,
+#block3 p {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.8px;
+  color: rgb(255, 255, 255);
+  margin: 5% 5%;
+}
+
+#block1 img,
+#block2 img,
+#block3 img {
+  height: 24px;
+  width: 24px;
+  margin-top: 25px;
+}
+
+.Select3 {
+  background: transparent;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 24.96px;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  border: none;
+  margin-right: 40%;
+}
+
+.Select3 option {
+  color: #2c3743;
+}
+
+#block1 {
+  background-color: #0cceb5;
+  border: 30px #00c3a5;
+  border-radius: 15px;
+  text-align: center;
+  color: #ffffff;
+  width: 345px;
+  height: 311px;
+  margin: 25px;
+  
+}
+
+#block2 {
+  background-color: #508fe2;
+  border: 30px #508fe2;
+  border-radius: 15px;
+  text-align: center;
+  color: #ffffff;
+  width: 345px;
+  height: 311px;
+  margin: 25px;
+}
+
+#block3 {
+  background-color: #2c3743;
+  border: 30px #2c3743;
+  border-radius: 15px;
+  text-align: center;
+  color: #ffffff;
+  width: 345px;
+  height: 311px;
+  margin: 25px;
+}
+.sponsors {
+  display: flex;
+  color: #00c3a5;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+#weareGC {
+  width: 15%;
+  padding: 2% 8%;
+}
+
+.sponlogo {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 33.8px;
+  color: rgb(0, 179, 155);
+  justify-content: space-between;
+  width: 60%;
+}
+
+.acheivments {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-image: url(https://cdn.discordapp.com/attachments/851355618643017740/904440936740839454/Sans_titre-2.png);
+  background-position-y: bottom;
+}
+
+.acheivments p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(116, 116, 116);
+  padding-left: 30px;
+  width: 60%;
+  height: 150px;
+}
+.acheivments h1 {
+  padding-top: 15px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 44.2px;
+  color: rgb(0, 179, 155);
+  padding-left: 30px;
+  width: 65%;
+}
+
+.box4 {
+  padding-top: 20px;
+  border: #00c3a5;
+  display: flex;
+  justify-content: space-around;
+}
+
+.b13 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.b24 {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.box {
+  background-color: #ffffff;
+  height: 220px;
+  border-radius: 5px;
+  width: 200px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.box h4 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  line-height: 31.2px;
+  color: rgb(0, 179, 155);
+  margin: 2px;
+  width: 70%;
+}
+
+.box img {
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.box p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.9px;
+  width: 100%;
+  padding: 5px;
+}
+
+.intoffice h1 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 39px;
+  color: rgb(0, 179, 155);
+  width: 35%;
+  text-align: center;
+  padding-left: 33%;
+}
+
+.intoffice p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(116, 116, 116);
+  width: 40%;
+  text-align: center;
+  padding-left: 31%;
+}
+
+.office {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.locations2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.line1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.line2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#Warsaw {
+  background-color: #ffffff;
+  border: 30px #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  width: 330px;
+  height: 370px;
+  margin: 25px;
+}
+
+.locations:hover {
+  box-shadow: 10px 10px 10px 10px #2c3743;
+}
+
+.SOimg {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+#Barcelona {
+  background-color: #ffffff;
+  border: 30px #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  width: 330px;
+  height: 370px;
+  margin: 25px;
+}
+
+#istanbul {
+  background-color: #ffffff;
+  border: 30px #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  width: 330px;
+  height: 370px;
+  margin: 25px;
+}
+
+#Rome {
+  background-color: #ffffff;
+  border: 30px #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  width: 330px;
+  height: 370px;
+  margin: 25px;
+}
+
+#Bologna {
+  background-color: #ffffff;
+  border: 30px #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  width: 330px;
+  height: 370px;
+  margin: 25px;
+}
+
+#Curitiba {
+  background-color: #ffffff;
+  border: 30px #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  width: 330px;
+  height: 370px;
+  margin: 25px;
+}
+
+#Mexico {
+  background-color: #ffffff;
+  border: 30px #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  width: 330px;
+  height: 370px;
+  margin: 25px;
+}
+
+button {
+  color: #ffffff;
+  background-color: #508fe2;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 10px;
+  cursor: pointer;
+  width: 104px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-color: #508fe2;
+}
+
+.locations h4 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.SO {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-left: 30px;
+}
+
+#lastbutton {
+  color: #ffffff;
+  background-color: #508fe2;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 10px;
+  cursor: pointer;
+  width: 204px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-color: #508fe2;
+}
+
+footer h4 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 39px;
+  color: rgb(51, 51, 51);
+}
+footer p {
+  margin-top: 50px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.6px;
+  color: rgb(171, 171, 171);
+  width: 50%;
+  text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.sponlogo > a > img {
+
+  filter: grayscale(100%);
+  height: 30px;
+  width: 150px;
+  margin: 10px;
+}
+
+.sponlogo > a > svg {
+  height: 30px;
+  width: 150px;
+  margin: 10px;
+
+fill: grey;}
+
+
+.sponlogo > a > img:hover {
+  filter: grayscale(0%);
+}
+
+.sponlogo > a > svg:hover {
+
+  fill: #00c3a5;}
+
+  
